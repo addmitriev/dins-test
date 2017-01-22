@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "data": {
+    "users": [
+      {
+        "firstName": "Pete",
+        "lastName": "Hunt"
+      },
+      {
+        "firstName": "Maykel",
+        "lastName": "Loomans"
+      }
+    ]
+  }
+}

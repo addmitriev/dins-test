@@ -1,0 +1,27 @@
+{
+  "code": 200,
+  "data": {
+    "users": [
+      {
+        "firstName": "Donald",
+        "lastName": "Knuth"
+      },
+      {
+        "firstName": "Linus",
+        "lastName": "Torvalds"
+      },
+      {
+        "firstName": "Anders",
+        "lastName": "Hejlsberg"
+      },
+      {
+        "firstName": "James",
+        "lastName": "Gosling"
+      },
+      {
+        "firstName": "Ken",
+        "lastName": "Thompson"
+      }
+    ]
+  }
+}
