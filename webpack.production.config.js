@@ -4,6 +4,7 @@ const path = require('path');
 const loaders = require('./webpack.loaders');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
@@ -42,5 +43,6 @@ module.exports = {
     }),
     new webpack.optimize.DedupePlugin(),
     new WebpackCleanupPlugin({ exclude: [ "bundle.js" ] }),
+    new CopyWebpackPlugin([ { from: 'public', ignore: ['.gitkeep'] } ])
   ]
 };
