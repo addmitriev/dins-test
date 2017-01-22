@@ -8,6 +8,8 @@ import { makeRoutes } from './routes';
 const store = configureStore();
 const history = syncHistoryWithStore(browserHistory, store);
 
+// TODO: add request interceptor, which will add token to request
+
 class App extends React.Component {
   render () {
     return (<Provider store={store}>
