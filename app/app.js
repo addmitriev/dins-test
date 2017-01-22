@@ -11,7 +11,7 @@ const history = syncHistoryWithStore(browserHistory, store);
 class App extends React.Component {
   render () {
     return (<Provider store={store}>
-      <Router children={makeRoutes()} history={history} />
+      <Router children={makeRoutes(store)} history={history} />
     </Provider>);
   }
 }
