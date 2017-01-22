@@ -12,7 +12,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone git@github.com:addmitriev/dins-test.git` this repository
 * `cd dins-react`
 * `npm install`
 
@@ -24,4 +24,4 @@ You will need the following things properly installed on your computer.
 ## Running Tests
 
 * `npm test`
-* `npm run test:eslint`
+* `npm run test:lint`
