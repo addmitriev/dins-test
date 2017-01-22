@@ -1,5 +1,7 @@
 # Dino Systems test task
 
+[![Build Status](https://travis-ci.org/addmitriev/dins-test.svg?branch=master)](https://travis-ci.org/addmitriev/dins-test)
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
